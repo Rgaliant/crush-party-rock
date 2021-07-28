@@ -1,10 +1,39 @@
 .contact-button {
-  width: 50px;
-  background-color: coral;
+  padding: 20px;
+  background-color: #990101;
   color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  text-decoration: none;
+  border-radius: 13px;
 }
 
 .background {
+  opacity: 60%;
+  width: 100%;
+  height: 90vh;
   background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2154758/settings_images/E7hFezDgTwKeAqQryBrX_file.jpg);
   background-position: center;
+}
+
+.black-background {
+  background: black;
+}
+
+.flex-back {
+  display: flex;
+  justify-content: center;
+}
+
+.background-image {
+  width: 100%;
+  height: 90%;
+}
+
+@media (max-width: 600px) {
+  .background-image {
+    width: 120vh;
+  }
 }
